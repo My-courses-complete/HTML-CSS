@@ -10,24 +10,21 @@
 	<title>Formularios</title>
 </head>
 <body>
-	<form action="">
-		<label for="nombre">
-			<span>¿Cual es tu nombre?</span>
-			<input type="text" name="nombre" placeholder="Nombre" id="nombre" autocomplete="name" required>
-		</label>
-		<label for="correo">
-			<span>¿Cual es tu correo?</span>
-			<input type="email" name="correo" placeholder="example@example.com" id="correo" autocomplete="email" required>
-		</label>
-		<label for="pais">
-			<span>¿En que pais vives?</span>
-			<input type="text" name="pais" id="pais" placeholder="Mexico" autocomplete="country" required>
-		</label>
-		<label for="cp">
-			<span>¿Cual es tu codigo postal?</span>
-			<input type="text" name="cp" id="cp" placeholder="12345" autocomplete="postal-code" required>
-		</label>
-		<input type="submit">
-	</form>
+	<main>
+		<!-- <select name="cursos" id="">
+			<option value="">Selecciona un curso</option>
+			<option value="JavaScript">JavaScript</option>
+			<option value="HTML5">HTML5</option>
+			<option value="CSS3">CSS3</option>
+			<option value="Web">Web Standards</option>
+		</select> -->
+		<input list="cursos">
+		<datalist id="cursos">
+			<option value="JavaScript">
+			<option value="HTML5">
+			<option value="CSS3">
+			<option value="Web Standards">
+		</datalist>
+	</main>
 </body>
 </html>
