@@ -13,96 +13,36 @@ body {
 	font-size: 1.6rem;
 }
 
-header {
-	height: 10vh;
-	background-color: purple;
+.container {
+	border: 0.3rem solid black;
+	display: flex;
 }
 
-li {
-	list-style: none;
-	display: inline-block;
-	margin: 1rem;
+.box {
+	width: 10rem;
+	height: 10rem;
 }
 
-nav, figure {
-	display: inline-block;
+.box1 #ajfncskjdvbc {
+	background-color: #f00;
 }
 
-figure {
-	margin: 1rem;
+.box2 {
+	background-color: #0f0;
 }
 
-nav {
-	position: absolute;
-	right: 1.5rem;
+.box3 {
+	background-color: #00f;
 }
 
-main {
-	height: 90vh;
+.box4 {
+	background-color: #ff0;
 }
 
-aside, section {
-	display: inline-block;
-	height: 90vh;
-}
-aside {
-	width: 20vw;
-	background-color: chocolate;
+.box5 {
+	background-color: #0ff;
 }
 
-aside div {
-	height: 15vh;
-	margin: 3vh;
-	background-color: #f5f5f5;
+.box6 {
+	background-color: #f0f;
 }
-
-section {
-	position: absolute;
-	left: 20vw;
-	width: 80vw;
-	padding: 1rem;
-	background-color: aqua;
-}
-/*   
-  main {
-	height: 80vh;
-  }
-  
-  footer {
-	height: 10vh;
-	background-color: darkorange;
-  }
-  
-  aside, section {
-	display: inline-block;
-	height: 80vh;
-  }
-  
-  aside {
-	width: 20vw;
-	background-color: chocolate;
-  }
-  
-  aside div {
-	height: 15vh;
-	margin: 3vh;
-	background-color: crimson;
-  }
-  
-  section {
-	position: absolute;
-	left: 20vw;
-	width: 80vw;
-	padding: 1rem;
-	background-color: darkblue;
-  }
-  
-  .footer-social, .footer-info {
-	display: inline-block;
-	margin: 1rem;
-  }
-  
-  .footer-info {
-	position: absolute;
-	right: 1.5rem;
-  } */
