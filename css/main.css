@@ -1,20 +1,108 @@
-.block-element {
-	background-color: green;
-	margin: 10px;
-	padding: 20px;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav {
-	background-color: peachpuff;
-	padding: 20px;
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+header {
+	height: 10vh;
+	background-color: purple;
+}
+
+li {
 	list-style: none;
-	text-align: center;
+	display: inline-block;
+	margin: 1rem;
 }
 
-.nav li {
+nav, figure {
 	display: inline-block;
-	font-size: 20px;
-	margin: 10px 0;
-	padding-left: 20px;
-	padding-right: 20px;
 }
+
+figure {
+	margin: 1rem;
+}
+
+nav {
+	position: absolute;
+	right: 1.5rem;
+}
+
+main {
+	height: 90vh;
+}
+
+aside, section {
+	display: inline-block;
+	height: 90vh;
+}
+aside {
+	width: 20vw;
+	background-color: chocolate;
+}
+
+aside div {
+	height: 15vh;
+	margin: 3vh;
+	background-color: #f5f5f5;
+}
+
+section {
+	position: absolute;
+	left: 20vw;
+	width: 80vw;
+	padding: 1rem;
+	background-color: aqua;
+}
+/*   
+  main {
+	height: 80vh;
+  }
+  
+  footer {
+	height: 10vh;
+	background-color: darkorange;
+  }
+  
+  aside, section {
+	display: inline-block;
+	height: 80vh;
+  }
+  
+  aside {
+	width: 20vw;
+	background-color: chocolate;
+  }
+  
+  aside div {
+	height: 15vh;
+	margin: 3vh;
+	background-color: crimson;
+  }
+  
+  section {
+	position: absolute;
+	left: 20vw;
+	width: 80vw;
+	padding: 1rem;
+	background-color: darkblue;
+  }
+  
+  .footer-social, .footer-info {
+	display: inline-block;
+	margin: 1rem;
+  }
+  
+  .footer-info {
+	position: absolute;
+	right: 1.5rem;
+  } */
