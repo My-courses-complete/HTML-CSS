@@ -1,0 +1,9 @@
+@media (min-width: 600px) {
+	.container {
+		flex-direction: row;
+	}
+
+	.c1, .c2, .c3, .c4, .c5 {
+		width: 50%;
+	}
+}
